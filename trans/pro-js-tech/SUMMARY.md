@@ -1,3 +1,4 @@
++   [JavaScript 技巧高级教程](README.md)
 +   [一、JavaScript 专业技术](01.md)
 +   [二、特性、函数和对象](02.md)
 +   [三、创建可重用代码](03.md)
@@ -10,4 +11,3 @@
 +   [十、Angular 和测试](10.md)
 +   [十一、JavaScript 的未来](11.md)
 +   [十二、附录 A：DOM 参考](12.md)
-+   [JavaScript 技巧高级教程](README.md)

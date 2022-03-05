@@ -1,3 +1,4 @@
++   [TypeScript 高级教程](README.md)
 +   [一、TypeScript 语言功能](01.md)
 +   [二、代码组织](02.md)
 +   [三、类型系统](03.md)
@@ -8,4 +9,3 @@
 +   [八、异常、内存和性能](08.md)
 +   [九、使用 JavaScript 库](09.md)
 +   [十、自动化测试](10.md)
-+   [TypeScript 高级教程](README.md)
