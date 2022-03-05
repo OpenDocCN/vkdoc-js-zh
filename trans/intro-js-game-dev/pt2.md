@@ -1,0 +1,4 @@
+# 第二部
+动画
+
+Animation Animation is fairly easy to do with the HTML canvas. All we need to do is clear the canvas and draw the scene repeatedly, updating the scene at every step. If we repeat this process and draw the scene at around 60 times per second, then we are animating. We need to clearly define how each element of the scene updates at each step, making sure we keep the code that updates the scene separate from the code that draws the scene. The following chapters demonstrate how to control an animation with a simple game loop, and we will learn the fundamentals of a solid object-oriented approach to designing our game elements. Finally, we will develop some of the game elements necessary for our Asteroids game clone using a simple approach to inheritance.
