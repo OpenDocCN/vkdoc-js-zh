@@ -10,5 +10,5 @@
 +   [九、JavaScript 和客户端开发](09.md)
 +   [十、JavaScript 和服务器端开发](10.md)
 +   [十一、JavaScript 和应用框架：Angular](11.md)
-+   [十五、JavaScript 和应用框架：React](12.md)
++   [十二、JavaScript 和应用框架：React](12.md)
 +   [十三、JavaScript 和静态部署](13.md)
