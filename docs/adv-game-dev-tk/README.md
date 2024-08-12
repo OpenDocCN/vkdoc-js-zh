@@ -1,6 +1,6 @@
 # 高级游戏开发工具包
 
-> 原文：[The Advanced Game Developer’s Toolkit](The Advanced Game Developer’s Toolkit)
+> 原文：The Advanced Game Developer’s Toolkit
 >
 > 协议：[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 > 
