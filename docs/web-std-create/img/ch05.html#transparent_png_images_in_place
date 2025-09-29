@@ -1,0 +1,574 @@
+<!--[if IE]><![endif]--><!DOCTYPE html><!--[if IE 8]><html class="no-js ie8 oldie" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/web-standards-creativity/9781590598030/ch05.html"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+  data-user-id="3945146"
+  data-user-uuid="fb5828d7-2e4a-4836-84e6-a288160eb348"
+  data-username="natasavasiliou"
+  data-account-type="Trial"
+  
+  data-activated-trial-date="12/16/2018"
+
+
+  data-archive="9781590598030"
+  data-publishers="Apress"
+
+
+
+  data-htmlfile-name="ch05.html"
+  data-epub-title="Web Standards Creativity: Innovations in Web Design with XHTML, CSS, and DOM Scripting" data-debug=0 data-testing=0><![endif]--><!--[if gt IE 8]><!--><html class="no-js" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+    
+        itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage" data-login-url="/accounts/login/"
+data-offline-url="/"
+data-url="/library/view/web-standards-creativity/9781590598030/ch05.html"
+data-csrf-cookie="csrfsafari"
+data-highlight-privacy=""
+
+
+  data-user-id="3945146"
+  data-user-uuid="fb5828d7-2e4a-4836-84e6-a288160eb348"
+  data-username="natasavasiliou"
+  data-account-type="Trial"
+  
+  data-activated-trial-date="12/16/2018"
+
+
+  data-archive="9781590598030"
+  data-publishers="Apress"
+
+
+
+  data-htmlfile-name="ch05.html"
+  data-epub-title="Web Standards Creativity: Innovations in Web Design with XHTML, CSS, and DOM Scripting" data-debug=0 data-testing=0><!--<![endif]--><head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="author" content="Safari Books Online" /><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"/><meta name="HandheldFriendly" content="True"/><meta name="MobileOptimized" content="320"/><meta name="apple-itunes-app" content="app-id=881697395, app-argument=safaridetail://9781590598030"/><meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0"/><meta property="twitter:account_id" content="4503599627559754" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script><link rel="apple-touch-icon" href="/static/images/apple-touch-icon.0c29511d2d72.png"/><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"><link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'><title>5. Creative Use of PNG Transparency in Web Design - Web Standards Creativity: Innovations in Web Design with XHTML, CSS, and DOM Scripting</title><link rel="stylesheet" href="/static/CACHE/css/5e586a47a3b7.css" type="text/css" /><link rel="stylesheet" type="text/css" href="/static/css/annotator.e3b0c44298fc.css"/><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><style type="text/css" title="ibis-book"></style><script> // <![CDATA[
+    var g = {
+      position_cache: {
+        
+          "chapter": "/api/v1/book/9781590598030/chapter/ch05.html",
+          "book_id": "9781590598030",
+          "chapter_uri": "ch05.html",
+          "position": 0,
+          "user_uuid": "fb5828d7-2e4a-4836-84e6-a288160eb348",
+          "next_chapter_uri": "/library/view/web-standards-creativity/9781590598030/pt02.html"
+        
+      },
+      title: "Web Standards Creativity: Innovations in Web Design with XHTML, CSS, and DOM Scripting",
+      author_list: "Dan Rubin, Derek Featherstone, Jeff Croft, Ian Lloyd, Rob Weychert, Ethan Marcotte, Mark Boulton, Simon Collison, Cameron Adams, Andy Clarke",
+      format: "book",
+      source: "application/epub+zip",
+      is_system_book: true,
+      is_public: false,
+      loaded_from_server: true,
+      allow_scripts: false,
+      has_mathml: false,
+      show_ios_app_teaser: false
+    };
+    // ]]></script><script src="/static/js/src/modernizr.8e35451ddb64.js"></script><script>
+    
+      
+
+      
+
+      
+        
+          window.PUBLIC_ANNOTATIONS = true;
+        
+      
+
+      window.MOBILE_PUBLIC_ANNOTATIONS = false;
+
+    
+
+    
+      window.PRIVACY_CONTROL_OVERRIDE = false;
+    
+
+    
+      window.PRIVACY_CONTROL_SWITCH = true;
+    
+
+    
+      window.PUBLISHER_PAGES = true;
+    
+
+      window.SBO = {
+        "constants": {
+          "SITB_ENDPOINT": "/api/v2/sitb/",
+          "SEARCH_SELECT_ENDPOINT": "/api/v2/search/select/",
+          "ENABLE_ONLINE_TRAINING": true
+        }
+      };
+  </script><link rel="canonical" href="https://www.safaribooksonline.com/library/view/web-standards-creativity/9781590598030/ch05.html"/><meta name="description" content="Chapter 5. Creative Use of PNG Transparency in Web Design jeff croft www2.jeffcroft.com Jeff Croft is a web and graphic designer focused on standards-based development who lives and ... "><meta property="og:title" content="5. Creative Use of PNG Transparency in Web Design" /><meta itemprop="isPartOf" content="/library/view/web-standards-creativity/9781590598030/" /><meta itemprop="name" content="5. Creative Use of PNG Transparency in Web Design" /><meta property="og:url" itemprop="url" content="https://www.safaribooksonline.com/library/view/web-standards-creativity/9781590598030/ch05.html" /><meta property="og:site_name" content="Safari" /><meta property="og:image" itemprop="thumbnailUrl" content="https://www.safaribooksonline.com/library/cover/9781590598030/" /><meta property="og:description" itemprop="description" content="Chapter 5. Creative Use of PNG Transparency in Web Design jeff croft www2.jeffcroft.com Jeff Croft is a web and graphic designer focused on standards-based development who lives and ... "><meta itemprop="inLanguage" content="en" /><meta itemprop="publisher" content="Apress" /><meta property="og:type" content="book" /><meta property="og:book:isbn" itemprop="isbn" content="9781590598030" /><meta property="og:book:author" itemprop="author" content="Dan Rubin" /><meta property="og:book:author" itemprop="author" content="Derek Featherstone" /><meta property="og:book:author" itemprop="author" content="Jeff Croft" /><meta property="og:book:author" itemprop="author" content="Ian Lloyd" /><meta property="og:book:author" itemprop="author" content="Rob Weychert" /><meta property="og:book:author" itemprop="author" content="Ethan Marcotte" /><meta property="og:book:author" itemprop="author" content="Mark Boulton" /><meta property="og:book:author" itemprop="author" content="Simon Collison" /><meta property="og:book:author" itemprop="author" content="Cameron Adams" /><meta property="og:book:author" itemprop="author" content="Andy Clarke" /><meta property="og:book:tag" itemprop="about" content="Design" /><meta property="og:book:tag" itemprop="about" content="Digital Media" /><meta property="og:book:tag" itemprop="about" content="Web Development" /><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@safari"><style type="text/css" id="font-styles" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-size: <%= font_size %> !important; }"></style><style type="text/css" id="font-family" data-template="#sbo-rt-content, #sbo-rt-content p, #sbo-rt-content div { font-family: <%= font_family %> !important; }"></style><style type="text/css" id="column-width" data-template="#sbo-rt-content { max-width: <%= column_width %>% !important; margin: 0 auto !important; }"></style><noscript><meta http-equiv="refresh" content="0; url=/library/no-js/" /></noscript><script type="text/javascript">
+    (function(i,s,o,g,r,a,m) {
+      i['GoogleAnalyticsObject']=r;
+      i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();
+      a=s.createElement(o),m=s.getElementsByTagName(o)[0];
+      a.async=1;
+      a.src=g;
+      m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    var matches = document.cookie.match(/BrowserCookie\s*=\s*([a-f0-9\-]{36})/),
+      user_uuid = null;
+
+    if (matches && matches.length === 2) {
+      user_uuid = matches[1];
+    }
+
+  
+    ga('create', 'UA-39299553-7', {'userId': 'fb5828d7-2e4a-4836-84e6-a288160eb348' });
+  
+
+  
+    
+      ga('set', 'dimension1', 'Trial');
+    
+  
+
+  ga('set', 'dimension6', user_uuid);
+
+  
+    ga('set', 'dimension2', 'fb5828d7-2e4a-4836-84e6-a288160eb348');
+    
+  
+
+  
+
+  
+
+  //enable enhanced link tracking
+  ga('require', 'linkid', 'linkid.js');
+
+  // reading interface will track pageviews itself
+  if (document.location.pathname.indexOf("/library/view") !== 0) {
+    ga('send', 'pageview');
+  }
+  </script><script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5P4V6Z');
+  </script><script defer src="/static/js/build/vendor.860721dad816.js"></script><script defer src="/static/js/build/reader.54b3e1936311.js"></script></head>
+
+
+<body class="reading sidenav nav-collapsed  scalefonts">
+
+    
+  
+  <noscript> 
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P4V6Z"
+            height="0" width="0"
+            style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
+  
+
+
+
+    
+      <div class="hide working" role="status">
+        <div class="working-image"></div>
+      </div>
+      <div class="sbo-site-nav">
+        
+
+
+
+
+
+<a href="#container" class="skip">Skip to content</a><header class="topbar t-topbar"><nav role="navigation" class="js-site-nav"><ul class="topnav"><li class="t-logo"><a href="/home/" class="l0 None safari-home nav-icn js-keyboard-nav-home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" version="1.1" fill="#4A3C31"><desc>Safari Home Icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M4 9.9L4 9.9 4 18 16 18 16 9.9 10 4 4 9.9ZM2.6 8.1L2.6 8.1 8.7 1.9 10 0.5 11.3 1.9 17.4 8.1 18 8.7 18 9.5 18 18.1 18 20 16.1 20 3.9 20 2 20 2 18.1 2 9.5 2 8.7 2.6 8.1Z"/><rect x="10" y="12" width="3" height="7"/><rect transform="translate(18.121320, 10.121320) rotate(-315.000000) translate(-18.121320, -10.121320) " x="16.1" y="9.1" width="4" height="2"/><rect transform="translate(2.121320, 10.121320) scale(-1, 1) rotate(-315.000000) translate(-2.121320, -10.121320) " x="0.1" y="9.1" width="4" height="2"/></g></svg><span>Safari Home</span></a></li><li><a href="/r/" class="t-recommendations-nav l0 nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>recommendations icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M50 25C50 18.2 44.9 12.5 38.3 11.7 37.5 5.1 31.8 0 25 0 18.2 0 12.5 5.1 11.7 11.7 5.1 12.5 0 18.2 0 25 0 31.8 5.1 37.5 11.7 38.3 12.5 44.9 18.2 50 25 50 31.8 50 37.5 44.9 38.3 38.3 44.9 37.5 50 31.8 50 25ZM25 3.1C29.7 3.1 33.6 6.9 34.4 11.8 30.4 12.4 26.9 15.1 25 18.8 23.1 15.1 19.6 12.4 15.6 11.8 16.4 6.9 20.3 3.1 25 3.1ZM34.4 15.6C33.6 19.3 30.7 22.2 27.1 22.9 27.8 19.2 30.7 16.3 34.4 15.6ZM22.9 22.9C19.2 22.2 16.3 19.3 15.6 15.6 19.3 16.3 22.2 19.2 22.9 22.9ZM3.1 25C3.1 20.3 6.9 16.4 11.8 15.6 12.4 19.6 15.1 23.1 18.8 25 15.1 26.9 12.4 30.4 11.8 34.4 6.9 33.6 3.1 29.7 3.1 25ZM22.9 27.1C22.2 30.7 19.3 33.6 15.6 34.4 16.3 30.7 19.2 27.8 22.9 27.1ZM25 46.9C20.3 46.9 16.4 43.1 15.6 38.2 19.6 37.6 23.1 34.9 25 31.3 26.9 34.9 30.4 37.6 34.4 38.2 33.6 43.1 29.7 46.9 25 46.9ZM27.1 27.1C30.7 27.8 33.6 30.7 34.4 34.4 30.7 33.6 27.8 30.7 27.1 27.1ZM38.2 34.4C37.6 30.4 34.9 26.9 31.3 25 34.9 23.1 37.6 19.6 38.2 15.6 43.1 16.4 46.9 20.3 46.9 25 46.9 29.7 43.1 33.6 38.2 34.4Z"/></g></svg><span>Recommended</span></a></li><li><a href="/playlists/" class="t-queue-nav l0 nav-icn None"><?xml version="1.0" encoding="UTF-8"?><svg width="21px" height="17px" viewBox="0 0 21 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch --><title>icon_Playlist_sml</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="icon_Playlist_sml" fill-rule="nonzero" fill="#000000"><g id="playlist-icon"><g id="Group-6"><rect id="Rectangle-path" x="5" y="0" width="16" height="3" rx="0.5"></rect><circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle></g><g id="Group-5" transform="translate(0.000000, 7.000000)"><circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle><rect id="Rectangle-path" x="5" y="0" width="16" height="3" rx="0.5"></rect></g><g id="Group-5-Copy" transform="translate(0.000000, 14.000000)"><circle id="Oval" cx="1.5" cy="1.5" r="1.5"></circle><rect id="Rectangle-path" x="5" y="0" width="16" height="3" rx="0.5"></rect></g></g></g></g></svg><span>
+               Playlists
+            </span></a></li><li class="search"><a href="#" class="t-search-nav trigger nav-icn l0" data-dropdown-selector=".searchbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>search icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M31.3 0C20.9 0 12.5 8.4 12.5 18.8 12.5 22.5 13.6 25.9 15.4 28.8L1.2 42.9C-0.4 44.5-0.4 47.2 1.2 48.8 2 49.6 3.1 50 4.2 50 5.2 50 6.3 49.6 7.1 48.8L21.2 34.6C24.1 36.5 27.5 37.5 31.3 37.5 41.6 37.5 50 29.1 50 18.8 50 8.4 41.6 0 31.3 0ZM31.3 31.3C24.4 31.3 18.8 25.6 18.8 18.8 18.8 11.9 24.4 6.3 31.3 6.3 38.1 6.3 43.8 11.9 43.8 18.8 43.8 25.6 38.1 31.3 31.3 31.3Z"/></g></svg><span>Search</span></a></li><li class="usermenu dropdown"><a href="#" class="trigger l0 nav-icn nav-dropdown"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" version="1.1" fill="#4A3C31"><desc>navigation arrow</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M0.1 12.5L9.7 3.1C9.8 3 9.9 3 10 3 10.1 3 10.2 3 10.3 3.1L19.9 12.5C20 12.5 20 12.6 20 12.8 20 12.9 20 13 19.9 13L17 15.9C16.9 16 16.8 16 16.7 16 16.5 16 16.4 16 16.4 15.9L10 9.7 3.6 15.9C3.6 16 3.5 16 3.3 16 3.2 16 3.1 16 3 15.9L0.1 13C0 12.9 0 12.8 0 12.7 0 12.7 0 12.6 0.1 12.5Z"/></g></svg><span>Expand Nav</span></a><div class="drop-content"><ul><li><a href="/history/" class="t-recent-nav l1 nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>recent items icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M25 0C11.2 0 0 11.2 0 25 0 38.8 11.2 50 25 50 38.8 50 50 38.8 50 25 50 11.2 38.8 0 25 0ZM6.3 25C6.3 14.6 14.6 6.3 25 6.3 35.4 6.3 43.8 14.6 43.8 25 43.8 35.4 35.4 43.8 25 43.8 14.6 43.8 6.3 35.4 6.3 25ZM31.8 31.5C32.5 30.5 32.4 29.2 31.6 28.3L27.1 23.8 27.1 12.8C27.1 11.5 26.2 10.4 25 10.4 23.9 10.4 22.9 11.5 22.9 12.8L22.9 25.7 28.8 31.7C29.2 32.1 29.7 32.3 30.2 32.3 30.8 32.3 31.3 32 31.8 31.5Z"/></g></svg><span>History</span></a></li><li><a href="/topics" class="t-topics-link l1 nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" width="20" height="20" version="1.1" fill="#4A3C31"><desc>topics icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M25 55L50 41.262 50 13.762 25 0 0 13.762 0 41.262 25 55ZM8.333 37.032L8.333 17.968 25 8.462 41.667 17.968 41.667 37.032 25 46.538 8.333 37.032Z"/></g></svg><span>Topics</span></a></li><li><a href="/tutorials/" class="l1 nav-icn t-tutorials-nav js-toggle-menu-item None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" version="1.1" fill="#4A3C31"><desc>tutorials icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M15.8 18.2C15.8 18.2 15.9 18.2 16 18.2 16.1 18.2 16.2 18.2 16.4 18.2 16.5 18.2 16.7 18.1 16.9 18 17 17.9 17.1 17.8 17.2 17.7 17.3 17.6 17.4 17.5 17.4 17.4 17.5 17.2 17.6 16.9 17.6 16.7 17.6 16.6 17.6 16.5 17.6 16.4 17.5 16.2 17.5 16.1 17.4 15.9 17.3 15.8 17.2 15.6 17 15.5 16.8 15.3 16.6 15.3 16.4 15.2 16.2 15.2 16 15.2 15.8 15.2 15.7 15.2 15.5 15.3 15.3 15.4 15.2 15.4 15.1 15.5 15 15.7 14.9 15.8 14.8 15.9 14.7 16 14.7 16.1 14.6 16.3 14.6 16.4 14.6 16.5 14.6 16.6 14.6 16.6 14.6 16.7 14.6 16.9 14.6 17 14.6 17.1 14.7 17.3 14.7 17.4 14.8 17.6 15 17.7 15.1 17.9 15.2 18 15.3 18 15.5 18.1 15.5 18.1 15.6 18.2 15.7 18.2 15.7 18.2 15.7 18.2 15.8 18.2L15.8 18.2ZM9.4 11.5C9.5 11.5 9.5 11.5 9.6 11.5 9.7 11.5 9.9 11.5 10 11.5 10.2 11.5 10.3 11.4 10.5 11.3 10.6 11.2 10.8 11.1 10.9 11 10.9 10.9 11 10.8 11.1 10.7 11.2 10.5 11.2 10.2 11.2 10 11.2 9.9 11.2 9.8 11.2 9.7 11.2 9.5 11.1 9.4 11 9.2 10.9 9.1 10.8 8.9 10.6 8.8 10.5 8.7 10.3 8.6 10 8.5 9.9 8.5 9.7 8.5 9.5 8.5 9.3 8.5 9.1 8.6 9 8.7 8.8 8.7 8.7 8.8 8.6 9 8.5 9.1 8.4 9.2 8.4 9.3 8.2 9.5 8.2 9.8 8.2 10 8.2 10.1 8.2 10.2 8.2 10.3 8.2 10.5 8.3 10.6 8.4 10.7 8.5 10.9 8.6 11.1 8.7 11.2 8.9 11.3 9 11.4 9.1 11.4 9.2 11.4 9.3 11.5 9.3 11.5 9.3 11.5 9.4 11.5 9.4 11.5L9.4 11.5ZM3 4.8C3.1 4.8 3.1 4.8 3.2 4.8 3.4 4.8 3.5 4.8 3.7 4.8 3.8 4.8 4 4.7 4.1 4.6 4.3 4.5 4.4 4.4 4.5 4.3 4.6 4.2 4.6 4.1 4.7 4 4.8 3.8 4.8 3.5 4.8 3.3 4.8 3.1 4.8 3 4.8 2.9 4.7 2.8 4.7 2.6 4.6 2.5 4.5 2.3 4.4 2.2 4.2 2.1 4 1.9 3.8 1.9 3.6 1.8 3.5 1.8 3.3 1.8 3.1 1.8 2.9 1.8 2.7 1.9 2.6 2 2.4 2.1 2.3 2.2 2.2 2.3 2.1 2.4 2 2.5 2 2.6 1.8 2.8 1.8 3 1.8 3.3 1.8 3.4 1.8 3.5 1.8 3.6 1.8 3.8 1.9 3.9 2 4 2.1 4.2 2.2 4.4 2.4 4.5 2.5 4.6 2.6 4.7 2.7 4.7 2.8 4.7 2.9 4.8 2.9 4.8 3 4.8 3 4.8 3 4.8L3 4.8ZM13.1 15.2C13.2 15.1 13.2 15.1 13.2 15.1 13.3 14.9 13.4 14.7 13.6 14.5 13.8 14.2 14.1 14 14.4 13.8 14.7 13.6 15.1 13.5 15.5 13.4 15.9 13.4 16.3 13.4 16.7 13.5 17.2 13.5 17.6 13.7 17.9 13.9 18.2 14.1 18.5 14.4 18.7 14.7 18.9 15 19.1 15.3 19.2 15.6 19.3 15.9 19.4 16.1 19.4 16.4 19.4 17 19.3 17.5 19.1 18.1 19 18.3 18.9 18.5 18.7 18.7 18.5 19 18.3 19.2 18 19.4 17.7 19.6 17.3 19.8 16.9 19.9 16.6 20 16.3 20 16 20 15.8 20 15.6 20 15.4 19.9 15.4 19.9 15.4 19.9 15.4 19.9 15.2 19.9 15 19.8 14.9 19.8 14.8 19.7 14.7 19.7 14.6 19.7 14.4 19.6 14.3 19.5 14.1 19.3 13.7 19.1 13.4 18.7 13.2 18.4 13.1 18.1 12.9 17.8 12.9 17.5 12.8 17.3 12.8 17.1 12.8 16.9L3.5 14.9C3.3 14.9 3.1 14.8 3 14.8 2.7 14.7 2.4 14.5 2.1 14.3 1.7 14 1.4 13.7 1.2 13.3 1 13 0.9 12.6 0.8 12.3 0.7 12 0.7 11.7 0.7 11.4 0.7 11 0.8 10.5 1 10.1 1.1 9.8 1.3 9.5 1.6 9.2 1.8 8.9 2.1 8.7 2.4 8.5 2.8 8.3 3.2 8.1 3.6 8.1 3.9 8 4.2 8 4.5 8 4.6 8 4.8 8 4.9 8.1L6.8 8.5C6.8 8.4 6.8 8.4 6.8 8.4 6.9 8.2 7.1 8 7.2 7.8 7.5 7.5 7.7 7.3 8 7.1 8.4 6.9 8.7 6.8 9.1 6.7 9.5 6.7 10 6.7 10.4 6.8 10.8 6.8 11.2 7 11.5 7.2 11.8 7.5 12.1 7.7 12.4 8 12.6 8.3 12.7 8.6 12.8 8.9 12.9 9.2 13 9.4 13 9.7 13 9.7 13 9.8 13 9.8 13.6 9.9 14.2 10.1 14.9 10.2 15 10.2 15 10.2 15.1 10.2 15.3 10.2 15.4 10.2 15.6 10.2 15.8 10.1 16 10 16.2 9.9 16.4 9.8 16.5 9.6 16.6 9.5 16.8 9.2 16.9 8.8 16.9 8.5 16.9 8.3 16.9 8.2 16.8 8 16.8 7.8 16.7 7.7 16.6 7.5 16.5 7.3 16.3 7.2 16.2 7.1 16 7 15.9 6.9 15.8 6.9 15.7 6.9 15.6 6.8 15.5 6.8L6.2 4.8C6.2 5 6 5.2 5.9 5.3 5.7 5.6 5.5 5.8 5.3 6 4.9 6.2 4.5 6.4 4.1 6.5 3.8 6.6 3.5 6.6 3.2 6.6 3 6.6 2.8 6.6 2.7 6.6 2.6 6.6 2.6 6.5 2.6 6.5 2.5 6.5 2.3 6.5 2.1 6.4 1.8 6.3 1.6 6.1 1.3 6 1 5.7 0.7 5.4 0.5 5 0.3 4.7 0.2 4.4 0.1 4.1 0 3.8 0 3.6 0 3.3 0 2.8 0.1 2.2 0.4 1.7 0.5 1.5 0.7 1.3 0.8 1.1 1.1 0.8 1.3 0.6 1.6 0.5 2 0.3 2.3 0.1 2.7 0.1 3.1 0 3.6 0 4 0.1 4.4 0.2 4.8 0.3 5.1 0.5 5.5 0.8 5.7 1 6 1.3 6.2 1.6 6.3 1.9 6.4 2.3 6.5 2.5 6.6 2.7 6.6 3 6.6 3 6.6 3.1 6.6 3.1 9.7 3.8 12.8 4.4 15.9 5.1 16.1 5.1 16.2 5.2 16.4 5.2 16.7 5.3 16.9 5.5 17.2 5.6 17.5 5.9 17.8 6.2 18.1 6.5 18.3 6.8 18.4 7.2 18.6 7.5 18.6 7.9 18.7 8.2 18.7 8.6 18.7 9 18.6 9.4 18.4 9.8 18.3 10.1 18.2 10.3 18 10.6 17.8 10.9 17.5 11.1 17.3 11.3 16.9 11.6 16.5 11.8 16 11.9 15.7 12 15.3 12 15 12 14.8 12 14.7 12 14.5 11.9 13.9 11.8 13.3 11.7 12.6 11.5 12.5 11.7 12.4 11.9 12.3 12 12.1 12.3 11.9 12.5 11.7 12.7 11.3 12.9 10.9 13.1 10.5 13.2 10.2 13.3 9.9 13.3 9.6 13.3 9.4 13.3 9.2 13.3 9 13.2 9 13.2 9 13.2 9 13.2 8.8 13.2 8.7 13.2 8.5 13.1 8.2 13 8 12.8 7.7 12.6 7.4 12.4 7.1 12 6.8 11.7 6.7 11.4 6.6 11.1 6.5 10.8 6.4 10.6 6.4 10.4 6.4 10.2 5.8 10.1 5.2 9.9 4.5 9.8 4.4 9.8 4.4 9.8 4.3 9.8 4.1 9.8 4 9.8 3.8 9.8 3.6 9.9 3.4 10 3.2 10.1 3 10.2 2.9 10.4 2.8 10.5 2.6 10.8 2.5 11.1 2.5 11.5 2.5 11.6 2.5 11.8 2.6 12 2.6 12.1 2.7 12.3 2.8 12.5 2.9 12.6 3.1 12.8 3.2 12.9 3.3 13 3.5 13.1 3.6 13.1 3.7 13.1 3.8 13.2 3.9 13.2L13.1 15.2 13.1 15.2Z"/></g></svg><span>Tutorials</span></a></li><li class="nav-offers flyout-parent"><a href="#" class="l1 nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20" version="1.1" fill="#4A3C31"><desc>offers icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M35.9 20.6L27 15.5C26.1 15 24.7 15 23.7 15.5L14.9 20.6C13.9 21.1 13.2 22.4 13.2 23.4L13.2 41.4C13.2 42.4 13.9 43.7 14.9 44.2L23.3 49C24.2 49.5 25.6 49.5 26.6 49L35.9 43.6C36.8 43.1 37.6 41.8 37.6 40.8L37.6 23.4C37.6 22.4 36.8 21.1 35.9 20.6L35.9 20.6ZM40 8.2C39.1 7.6 37.6 7.6 36.7 8.2L30.2 11.9C29.3 12.4 29.3 13.2 30.2 13.8L39.1 18.8C40 19.4 40.7 20.6 40.7 21.7L40.7 39C40.7 40.1 41.4 40.5 42.4 40L48.2 36.6C49.1 36.1 49.8 34.9 49.8 33.8L49.8 15.6C49.8 14.6 49.1 13.3 48.2 12.8L40 8.2 40 8.2ZM27 10.1L33.6 6.4C34.5 5.9 34.5 5 33.6 4.5L26.6 0.5C25.6 0 24.2 0 23.3 0.5L16.7 4.2C15.8 4.7 15.8 5.6 16.7 6.1L23.7 10.1C24.7 10.6 26.1 10.6 27 10.1ZM10.1 21.7C10.1 20.6 10.8 19.4 11.7 18.8L20.6 13.8C21.5 13.2 21.5 12.4 20.6 11.9L13.6 7.9C12.7 7.4 11.2 7.4 10.3 7.9L1.6 12.8C0.7 13.3 0 14.6 0 15.6L0 33.8C0 34.9 0.7 36.1 1.6 36.6L8.4 40.5C9.3 41 10.1 40.6 10.1 39.6L10.1 21.7 10.1 21.7Z"/></g></svg><span>Offers & Deals</span></a><ul class="flyout"><li><a href="https://get.oreilly.com/email-signup.html" target="_blank" class="l2 nav-icn"><span>Newsletters</span></a></li></ul></li><li class="nav-highlights"><a href="/u/fb5828d7-2e4a-4836-84e6-a288160eb348/" class="t-highlights-nav l1 nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 35" width="20" height="20" version="1.1" fill="#4A3C31"><desc>highlights icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M13.325 18.071L8.036 18.071C8.036 11.335 12.36 7.146 22.5 5.594L22.5 0C6.37 1.113 0 10.632 0 22.113 0 29.406 3.477 35 10.403 35 15.545 35 19.578 31.485 19.578 26.184 19.578 21.556 17.211 18.891 13.325 18.071L13.325 18.071ZM40.825 18.071L35.565 18.071C35.565 11.335 39.86 7.146 50 5.594L50 0C33.899 1.113 27.5 10.632 27.5 22.113 27.5 29.406 30.977 35 37.932 35 43.045 35 47.078 31.485 47.078 26.184 47.078 21.556 44.74 18.891 40.825 18.071L40.825 18.071Z"/></g></svg><span>Highlights</span></a></li><li><a href="/u/preferences/" class="t-settings-nav l1 js-settings nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 53" width="20" height="20" version="1.1" fill="#4A3C31"><desc>settings icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M44.6 29.6C44.7 28.6 44.8 27.5 44.8 26.5 44.8 25.5 44.7 24.4 44.6 23.4L49.6 19C50 18.8 50.1 18.3 49.9 17.9 48.9 14.7 47.1 11.7 44.9 9.1 44.6 8.8 44.2 8.7 43.8 8.8L37.4 11.1C35.8 9.8 34 8.7 32.1 8L30.9 1.4C30.8 0.9 30.4 0.6 30 0.5 26.7-0.2 23.3-0.2 20 0.5 19.6 0.6 19.2 0.9 19.1 1.4L17.9 8C16 8.7 14.1 9.8 12.6 11.1L6.2 8.8C5.8 8.7 5.4 8.8 5.1 9.1 2.9 11.7 1.1 14.7 0.1 17.9 -0.1 18.3 0 18.8 0.4 19L5.4 23.4C5.3 24.4 5.2 25.5 5.2 26.5 5.2 27.5 5.3 28.6 5.4 29.6L0.4 34C0 34.2-0.1 34.7 0.1 35.1 1.1 38.3 2.9 41.4 5.1 43.9 5.4 44.2 5.8 44.4 6.2 44.2L12.6 42C14.1 43.2 16 44.3 17.9 45L19.1 51.7C19.2 52.1 19.6 52.5 20 52.5 21.6 52.8 23.3 53 25 53 26.7 53 28.4 52.8 30 52.5 30.4 52.5 30.8 52.1 30.9 51.7L32.1 45C34 44.3 35.8 43.2 37.4 42L43.8 44.2C44.2 44.4 44.6 44.2 44.9 43.9 47.1 41.4 48.9 38.3 49.9 35.1 50.1 34.7 50 34.2 49.6 34L44.6 29.6ZM25 36.4C19.6 36.4 15.2 32 15.2 26.5 15.2 21 19.6 16.6 25 16.6 30.4 16.6 34.8 21 34.8 26.5 34.8 32 30.4 36.4 25 36.4Z"/></g></svg><span>Settings</span></a></li><li><a href="https://www.oreilly.com/online-learning/support/" class="l1 no-icon">Support</a></li><li><a href="/accounts/logout/" class="l1 no-icon">Sign Out</a></li></ul><ul class="profile"><li><a href="/u/preferences/" class="l2 nav-icn None"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 53" width="20" height="20" version="1.1" fill="#4A3C31"><desc>settings icon</desc><g stroke="none" stroke-width="1" fill-rule="evenodd"><path d="M44.6 29.6C44.7 28.6 44.8 27.5 44.8 26.5 44.8 25.5 44.7 24.4 44.6 23.4L49.6 19C50 18.8 50.1 18.3 49.9 17.9 48.9 14.7 47.1 11.7 44.9 9.1 44.6 8.8 44.2 8.7 43.8 8.8L37.4 11.1C35.8 9.8 34 8.7 32.1 8L30.9 1.4C30.8 0.9 30.4 0.6 30 0.5 26.7-0.2 23.3-0.2 20 0.5 19.6 0.6 19.2 0.9 19.1 1.4L17.9 8C16 8.7 14.1 9.8 12.6 11.1L6.2 8.8C5.8 8.7 5.4 8.8 5.1 9.1 2.9 11.7 1.1 14.7 0.1 17.9 -0.1 18.3 0 18.8 0.4 19L5.4 23.4C5.3 24.4 5.2 25.5 5.2 26.5 5.2 27.5 5.3 28.6 5.4 29.6L0.4 34C0 34.2-0.1 34.7 0.1 35.1 1.1 38.3 2.9 41.4 5.1 43.9 5.4 44.2 5.8 44.4 6.2 44.2L12.6 42C14.1 43.2 16 44.3 17.9 45L19.1 51.7C19.2 52.1 19.6 52.5 20 52.5 21.6 52.8 23.3 53 25 53 26.7 53 28.4 52.8 30 52.5 30.4 52.5 30.8 52.1 30.9 51.7L32.1 45C34 44.3 35.8 43.2 37.4 42L43.8 44.2C44.2 44.4 44.6 44.2 44.9 43.9 47.1 41.4 48.9 38.3 49.9 35.1 50.1 34.7 50 34.2 49.6 34L44.6 29.6ZM25 36.4C19.6 36.4 15.2 32 15.2 26.5 15.2 21 19.6 16.6 25 16.6 30.4 16.6 34.8 21 34.8 26.5 34.8 32 30.4 36.4 25 36.4Z"/></g></svg><span>Settings</span></a><span class="l2 t-nag-notification"  id="nav-nag" ><strong class="trial-yellow">4</strong> days left in your trial.
+  
+  
+
+  
+    
+      
+
+<a class="" href="/subscribe/">Subscribe</a>.
+
+
+    
+  
+
+  
+
+</span></li><li><a href="https://www.oreilly.com/online-learning/support/" class="l2">Support</a></li><li><a href="/accounts/logout/" class="l2">Sign Out</a></li></ul></div></li></ul></nav></header>
+
+
+      </div>
+      <div id="container" class="application">
+        
+          <div class="nav-container clearfix">
+            
+
+
+            
+            
+          </div>
+
+          
+
+  <div class="js-toc">
+    
+      <div class="sbo-reading-menu sbo-menu-top"><section class="sbo-toc-container toc-menu"><a href="#" class="sbo-toc-thumb"><span class="sbo-title ss-list"><h1><div class="visuallyhidden">Table of Contents for </div>
+      
+      Web Standards Creativity: Innovations in Web Design with XHTML, CSS, and DOM Scripting
+      
+    </h1></span></a><div class="toc-contents"></div></section></div>
+
+    
+
+    <div class="interface-controls interface-controls-top">
+      <ul class="interface-control-btns js-bitlist js-reader">
+        <li class="js-search-in-archive search-in-archive t-search-in-archive"><a href="#" title="Search in archive" class="js-search-controls search-controls"><span class="icon">Search in book...</span></a><form class="search-archive-bar js-search-form"><input type="search" name="query" placeholder="Search inside this book..." autocomplete="off"></form><div class="search-archive-results"><div class="js-sitb-results-region"></div></div></li><li class="queue-control"><div class="js-content-uri" data-content-uri="/api/v1/book/9781590598030/chapter/ch05.html"><div class="js-collections-dropdown collections-dropdown menu-bit-cards"></div></div></li><li class="js-font-control-panel font-control-activator"><a href="#" data-push-state="false" id="font-controls" title="Change font size" aria-label="Change font size"><span class="icon">Toggle Font Controls</span></a></li><li class="dropdown sharing-controls"><a href="#" class="trigger" data-push-state="false" title="Share" aria-label="Share"><i class="fa fa-share"></i></a><ul class="social-sharing dropdown-menu"><li><a
+        class="twitter share-button t-twitter"
+        target="_blank"
+        aria-label="Share this section on Twitter"
+        title="Share this section on Twitter"
+      
+        href="https://twitter.com/share?url=https://www.safaribooksonline.com/library/view/web-standards-creativity/9781590598030/ch05.html&text=Web%20Standards%20Creativity%3A%20Innovations%20in%20Web%20Design%20with%20XHTML%2C%20CSS%2C%20and%20DOM%20Scripting&via=safari"
+      ><span>Twitter</span></a></li><li><a
+        class="facebook share-button t-facebook"
+        target="_blank"
+        aria-label="Share this section on Facebook"
+        title="Share this section on Facebook"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://www.safaribooksonline.com/library/view/web-standards-creativity/9781590598030/ch05.html"
+      ><span>Facebook</span></a></li><li><a
+        class="googleplus share-button t-googleplus"
+        target="_blank"
+        aria-label="Share this secton on Google Plus"
+        title="Share this secton on Google Plus"
+        href="https://plus.google.com/share?url=https://www.safaribooksonline.com/library/view/web-standards-creativity/9781590598030/ch05.html"
+      ><span>Google Plus</span></a></li><li><a
+        class="email share-button t-email"
+        aria-label="Share this section via email"
+        title="Share this section via email"
+      
+        href="mailto:?subject=Safari: 5.%20Creative%20Use%20of%20PNG%20Transparency%20in%20Web%20Design&body=https://www.safaribooksonline.com/library/view/web-standards-creativity/9781590598030/ch05.html%0D%0Afrom Web%20Standards%20Creativity%3A%20Innovations%20in%20Web%20Design%20with%20XHTML%2C%20CSS%2C%20and%20DOM%20Scripting%0D%0A"
+      ><span>Email</span></a></li></ul></li>
+      </ul>
+    </div>
+
+    <section role="document">
+        
+        
+
+
+
+ <!--[if lt IE 9]>
+  
+<![endif]-->
+
+
+
+  <script defer src="/static/js/build/djangoMessagesPage.6d18de30c1a1.js"></script>
+
+
+        
+	  <div class="t-sbo-prev sbo-prev sbo-nav-top">
+  
+    
+      
+        <a href="/library/view/web-standards-creativity/9781590598030/ch04.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">4. Designing for Outside the Box</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-top">
+  
+    
+      
+        <a href="/library/view/web-standards-creativity/9781590598030/pt02.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">II. Effective Print Techniques Applied to CSS Design</div>
+        </a>
+    
+  
+  </div>
+
+
+
+<div id="sbo-rt-content"><div class="chapter"><div class="titlepage"><div><div><h1 class="title"><a id="creative_use_of_png_transparency"></a>Chapter 5. Creative Use of PNG Transparency in Web Design</h1></div></div></div><p><span class="strong"><strong>jeff croft</strong></span></p><p><code class="systemitem">www2.jeffcroft.com</code></p><p><span class="strong"><strong>Jeff Croft</strong></span> is a web and graphic designer focused on standards-based development who lives and works in Lawrence, Kansas. As the senior designer at World Online, Jeff works on such award-winning news sites as <code class="systemitem">www.lawrence.com</code> and <code class="systemitem">www.ljworld.com</code>. Jeff also runs a popular blog and personal site at <code class="systemitem">www.jeffcroft.com</code>, where he writes about many topics, including modern web and graphic design.</p><p>Jeff has been making the Web about as long as there has been a Web to be made. He created his first web pages in 1994 using SimpleText and Netscape Navigator 1.1N on a Macintosh Performa 600. He started working on the Web full time in 1996 and has been at it ever since.</p><p>Although Jeff enjoys technology and gadgets, what truly inspires him about the Web is its ability to communicate and connect people. Jeff is a constant consumer of design, finding inspiration nearly everywhere.</p><p>When he's not hunched over a computer, Jeff enjoys photography, music, film, television, and a good night out on the town.</p><div class="informalfigure"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/U0501.png" width="263" alt="Creative Use of PNG Transparency in Web Design" height="273"></div></div><div class="sect1"><div class="titlepage"><div><div><h1 class="title"><a id="png_comma_gif_comma_and_jpeg"></a>PNG, GIF, and JPEG</h1></div></div></div><p>The PNG image has been widely overlooked by the web design communityand mostly for good reason. Until recently, it hasn't been possible to take full advantage of the format and have it work reliably in all browsers. But, with proper PNG support in Internet Explorer 7, and some handy JavaScript and CSS tricks to account for older browsers, we can use PNG images to greatly enhance our design vocabulary.<a id="IDX-CHP-5-0219" class="indexterm"></a></p><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="what_is_png_question"></a>What is PNG?</h2></div></div></div><p>PNG, usually pronounced "ping," stands for Portable Network Graphics. It is a losslessly compressed bitmap image format. In plain English, it's a way of saving graphic images that reduces file size without reducing image quality. It was originally created as a replacement for the ubiquitous GIF format, which used to require a patent license for producers of imaging software to use it legally (the GIF/LZW patent has since expired, so this is no longer a factor). PNG is also an International Standard (ISO/IEC 15948:2003) and an official W3C recommendation (<code class="systemitem">www.w3.org/TR/PNG/</code>).<a id="IDX-CHP-5-0220" class="indexterm"></a><a id="IDX-CHP-5-0221" class="indexterm"></a><a id="IDX-CHP-5-0222" class="indexterm"></a><a id="IDX-CHP-5-0223" class="indexterm"></a><a id="IDX-CHP-5-0224" class="indexterm"></a></p><p>Besides being a freely available format, PNG offers several practical advantages over GIF for the web designer:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p><span class="strong"><strong>Greater compression</strong></span>: For most images, PNG achieves a smaller file size than GIF.</p></li><li class="listitem"><p><span class="strong"><strong>Greater color depths</strong></span>: PNG offers truecolor up to 48 bits, whereas GIF allows only 256-color palettes.</p></li><li class="listitem"><p><span class="strong"><strong>Alpha-channel transparency</strong></span>: Whereas GIF offers only binary transparency, PNG allows for virtually unlimited transparency effects by enabling an alpha channel for transparency.<a id="IDX-CHP-5-0225" class="indexterm"></a><a id="IDX-CHP-5-0226" class="indexterm"></a></p></li></ul></div><p>It's worth mentioning that PNG does not allow for animation, as GIF does. There is a related standard called Multiple-image Network Graphics (MNG, <code class="systemitem">www.libpng.org/pub/mng/</code>) that does allow both, but it is not widely supported by web browsers or imaging software.</p></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="so_why_is_gif_still_so_popular_question"></a>So why is GIF still so popular?</h2></div></div></div><p>You're probably wondering why PNG isn't the most commonly used image format on the Web, if it's as good as advertised. The answer, for the most part, lies in misconceptions about the format and the browser support for it. Because Internet Explorer 6 and lower do not support the full spectrum of PNG's features (including alpha-channel transparency), people seem to believe (albeit erroneously) that Internet Explorer doesn't support PNGs at all, or at least doesn't support transparency. In reality, Internet Explorer 5 and 6 both support enough of the PNG spec to make PNG images functionally equivalent to (or better than) nonanimated GIF images. All other notable browsersincluding Firefox, Netscape 6 and higher, Mozilla, Opera 6 and higher, Safari, and Caminooffer full support for PNG transparency.<a id="IDX-CHP-5-0227" class="indexterm"></a><a id="IDX-CHP-5-0228" class="indexterm"></a><a id="IDX-CHP-5-0229" class="indexterm"></a></p><p>Besides the misconceptions about browser support, GIF's built-in support for animation was (and continues to be) a key reason for its success. In recent years, however, this use of GIF has become less popular as other technologies (notably Flash) have become more common for animation.</p><p>Transparency is a key feature of both GIF and PNG that is often the reason either one gets chosen as a web designer's format of choice for a particular image element. Although PNG offers far more extensive support for transparency, web designers are often required to create GIF versions of the images as well to accommodate older browsers. Using CSS, it's possible (and somewhat commonplace) to send GIF images to older browsers and higher-quality PNGs to browsers that understand them. But the creation of two images is extra work for the web designer, and this has often resulted in people settling on the lowest common denominator, which continues to be GIF images.<a id="IDX-CHP-5-0230" class="indexterm"></a></p><p>In the end, there are several reasons why GIF is still so popular, but most of them are based on misconceptions or use case scenarios that are becoming less and less common. Armed with some new knowledge of how PNG works and how it can be used reliably across browsers, you should be able to take advantage of all that the format offers without having to rely on GIF.</p></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="what_about_jpeg_question"></a>What about JPEG?</h2></div></div></div><p>JPEG, the Web's other ubiquitous file format, is almost always a better choice than either PNG or GIF for photographic (or photo-like) images. PNG was not intended to compete with JPEG. JPEG's lossy compression (which results in some reduction in quality each time the image is saved) will produce considerably smaller files than PNG when dealing with photos. PNG, on the other hand, will produce smaller files when the images within are text, line art, logos, flat colors, and so on.</p></div></div><div class="sect1"><div class="titlepage"><div><div><h1 class="title"><a id="some_great_uses_for_the_humble_png"></a>Some great uses for the humble PNG</h1></div></div></div><p>Now let's look at some great uses for the PNG in web design. I've included all the files for each example in a separate folder inside the code download for this chapter, available at <code class="systemitem">www.friendsofed.com</code>.</p><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_gradient"></a>The gradient</h2></div></div></div><p>In the past few years, the gradienta smooth transition between two or more colorshas become the web designer's best friend. Especially popular is the subtle, barely noticeable gradient fill, which adds a feeling of depth and texture without being overt and cheesy.<a id="IDX-CHP-5-0231" class="indexterm"></a></p><p>GIF is sometimes a good choice for gradients. If the gradient is a simple two-color fade, GIF usually works just fine. However, the GIF 256-color limit often causes noticeable and unsightly banding across more complex gradient transitions. JPEG, on the other hand, can render quite pleasing gradients, but often at the cost of a higher-than-desired file size. And while JPEG gradients are usually "good enough," keep in mind that JPEG does use lossy compression, which means the reproduced image is never as high fidelity as the original, uncompressed image.<a id="IDX-CHP-5-0232" class="indexterm"></a></p><p>Consider the typical background gradient style often used for buttons, boxes, and just about anything else. It may look something like <a class="link" href="ch05.html#photoshop_apostrophy_s_save_for_web_pan" title="Figure 5.1. Photoshop's Save For Web panel displaying file size differences for the same image in various formats">Figure 5-1</a>. Clockwise from the top left, we have the original (uncompressed) image, a GIF version, a PNG version, and a JPEG version. You can see that PNG results in the smallest file size (515 bytes). It's about four times smaller than the GIF image. The JPEG is slightly larger than the PNG at 637 bytes, and it is also of lower quality due to the lossy compression (admittedly, the ability for the human eye to detect the difference in quality in this simple example is questionable at best).</p><div class="figure"><a id="photoshop_apostrophy_s_save_for_web_pan"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0501.png" width="549" alt="Photoshop's Save For Web panel displaying file size differences for the same image in various formats" height="459"></div></div><p class="title"><strong>Figure 5.1. Photoshop's Save For Web panel displaying file size differences for the same image in various formats</strong></p></div></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_image_that_needs_to_work_on_any_bac"></a>The image that needs to work on any background</h2></div></div></div><p>Sometimes it's necessary to create an image that works equally well on a variety of backgrounds. Some common examples are logos and icons. These situations have traditionally been the domain of the GIF file, but there are several reasons why PNG may be a better choice. PNG is almost always the winner in a file-size shootout on logos and other simple artwork. In addition, PNG's native transparency makes it simple to create a single file that works on top of any background you can throw under it. PNG does offer binary transparencythe same as GIFbut also provides the much more exciting alpha-channel variety, in which pixels can be <span class="emphasis"><em>partially</em></span> transparent, rather than simply on or off. Using the latter does increase the file sizesometimes beyond that of a (binary) transparent GIFbut also allows for antialiasing the edges of your artwork, which makes for a much more elegant placement atop your background.<a id="IDX-CHP-5-0234" class="indexterm"></a><a id="IDX-CHP-5-0235" class="indexterm"></a><a id="IDX-CHP-5-0236" class="indexterm"></a><a id="IDX-CHP-5-0237" class="indexterm"></a><a id="IDX-CHP-5-0238" class="indexterm"></a><a id="IDX-CHP-5-0233" class="indexterm"></a><a id="IDX-CHP-5-0239" class="indexterm"></a></p><p>For the website of KTKA Channel 49 News in Topeka, Kansas (<code class="systemitem">www.49abcnews.com</code>), World Online staff crafted beautiful weather iconography to indicate the current conditions in the site's header. But, thanks to a clever bit of programming that causes the header to change from a daytime color scheme to a nighttime version precisely at sunset, the weather images needed to work equally well on different backgrounds. Take a look at <a class="link" href="ch05.html#www.49abcnews" title="Figure 5.2. www.49abcnews.com header, daytime">Figures 5-2</a> and <a class="link" href="ch05.html#www.49abcnews-id1" title="Figure 5.3. www.49abcnews.com header, nighttime">5-3</a>.</p><div class="figure"><a id="www.49abcnews"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0502.png" height="106" alt="www.49abcnews.com header, daytime" width="549"></div></div><p class="title"><strong>Figure 5.2. <code class="systemitem">www.49abcnews.com</code> header, daytime</strong></p></div><div class="figure"><a id="www.49abcnews-id1"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0503.png" height="106" alt="www.49abcnews.com header, nighttime" width="549"></div></div><p class="title"><strong>Figure 5.3. <code class="systemitem">www.49abcnews.com</code> header, nighttime</strong></p></div><p>By using PNG, I was able to do the designer's work justice whether it appeared on the day or night background. And, should we choose to change the backgrounds at some point, I won't have to remake any weather icons, because the alpha-transparent PNG files will look great on anything.</p><p>If I had chosen to use GIF instead, I would have been limited to GIF's binary transparency. The result would have looked like <a class="link" href="ch05.html#www.49abcnews-id2" title="Figure 5.4. www.49abcnews.com header, nightime, with GIF image instead of PNG">Figure 5-4</a>. I think we can all agree that's not good enough.</p><div class="figure"><a id="www.49abcnews-id2"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0504.png" height="106" alt="www.49abcnews.com header, nightime, with GIF image instead of PNG" width="549"></div></div><p class="title"><strong>Figure 5.4. <code class="systemitem">www.49abcnews.com</code> header, nightime, with GIF image instead of PNG</strong></p></div></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_translucent_html_overlay"></a>The translucent HTML overlay</h2></div></div></div><p>A very common graphic design technique is to overlay a photo or other image with a partially transparent region, usually containing text. This allows for readable text without completely obscuring the view of the image below. Designer Wilson Miner (<code class="systemitem">www.wilsonminer.com</code>) uses this to great effect on the Gingeroot jewelry site (<code class="systemitem">www.simplygingeroot.com</code>), as you can see <a class="link" href="ch05.html#www.simplygingeroot-id1" title="Figure 5.5. www.simplygingeroot.com, designed by the talented Wilson Miner (www.wilsonminer.com)">Figure 5-5</a>.<a id="IDX-CHP-5-0242" class="indexterm"></a><a id="IDX-CHP-5-0240" class="indexterm"></a><a id="IDX-CHP-5-0241" class="indexterm"></a></p><div class="figure"><a id="www.simplygingeroot-id1"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0505.png" height="309" alt="www.simplygingeroot.com, designed by the talented Wilson Miner (www.wilsonminer.com)" width="549"></div></div><p class="title"><strong>Figure 5.5. <code class="systemitem">www.simplygingeroot.com</code>, designed by the talented Wilson Miner (<code class="systemitem">www.wilsonminer.com</code>)</strong></p></div><p>Wilson includes his transparent region and text in the JPEG image. He created them beforehand in Photoshop. This works fine, and it is totally appropriate for the site's needs. But what if the text in the translucent area needed to change very frequentlyperhaps even be different for every visitor? In this case, it wouldn't be practical to put the text in the image. The text would need to be crafted in HTML and CSS. Using PNG's transparency alpha channel, we can emulate Wilson's style without putting the text in the image itself.</p><p>I'll start with a photograph of my daughter, Haley Madysan, and put it into a simple XHTML page with some basic CSS styling (this is <code class="literal">haley_example/index.html</code> in the code download). Note that I'm using an embedded CSS style sheet for demonstration purposes only. In real-world situations, using a linked external style sheet typically provides more flexibility, less code repetition, and more practical file management.</p><pre class="programlisting">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.simplygingeroot.com, designed by the talented Wilson Miner (www.wilsonminer.com)" width="17" height="10"></div>
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+  &lt;title&gt;Haley's web site&lt;/title&gt;
+  &lt;style&gt;
+    body {
+      font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+      background-color: #304251;
+      color: #304251;
+      margin: 20px auto;
+      width: 720px;
+    }
+    #feature {
+      position: relative;
+      width: 720px;
+      height: 439px;
+    }
+    #feature-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 125px;
+      width: 720px;
+      background-color: #dfdfdf;
+    }
+    #feature-content h1 {
+      margin: 0;
+      padding: 0;
+      line-height: 125px;
+      padding: 0 30px;
+      font-weight: normal;
+      font-size: 2.3em;
+    }
+    #feature-content a {
+      float: right;
+      font-size: .6em;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;</pre><pre class="programlisting">}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id="feature"&gt;
+    &lt;img src="haley.jpg" alt="Haley Madysan Croft" /&gt;
+    &lt;div id="feature-content"&gt;
+      &lt;h1&gt;Sweet. Smart. Beautiful. &lt;a href="/haley" <div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.simplygingeroot.com, designed by the talented Wilson Miner (www.wilsonminer.com)" width="17" height="10"></div>
+title="Haley Madysan Croft"&gt;Learn more &lt;/a&gt;&lt;/h1&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre><p>With that, I've more or less duplicated what you saw in Wilson's Gingeroot site, except without any transparency (yet), as shown in <a class="link" href="ch05.html#emulating_the" title="Figure 5.6. Emulating the www.simplygingeroot.com style with HTML and CSS, but no transparency (yet)">Figure 5-6</a>.</p><div class="figure"><a id="emulating_the"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0506.png" width="549" alt="Emulating the www.simplygingeroot.com style with HTML and CSS, but no transparency (yet)" height="411"></div></div><p class="title"><strong>Figure 5.6. Emulating the <code class="systemitem">www.simplygingeroot.com</code> style with HTML and CSS, but no transparency (yet)</strong></p></div><p>Now I'll create a 1-by-1-pixel image in Photoshop. I fill the image with a shade of light blue and set the layer to 70% opacity. Finally, I save the image using Photoshop's PNG-24 setting, enabling transparency. Then I simply use this image as the background for the overlay, instead of the solid gray you see in <a class="link" href="ch05.html#emulating_the" title="Figure 5.6. Emulating the www.simplygingeroot.com style with HTML and CSS, but no transparency (yet)">Figure 5-6</a>.</p><pre class="programlisting">#feature-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 125px;
+      width: 720px;
+      background-image: url('transparent.png');
+    }</pre><p>The result is quite similar to the original, but with the HTML and CSS text, it becomes more flexible, as shown in <a class="link" href="ch05.html#adding_transparency_via_the_png" title="Figure 5.7. Adding transparency via the PNG image format nearly duplicates the www.simplygingeroot.com style.">Figure 5-7</a>.</p><div class="figure"><a id="adding_transparency_via_the_png"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0507.png" width="549" alt="Adding transparency via the PNG image format nearly duplicates the www.simplygingeroot.com style." height="411"></div></div><p class="title"><strong>Figure 5.7. Adding transparency via the PNG image format nearly duplicates the <code class="systemitem">www.simplygingeroot.com</code> style.</strong></p></div><p>Wilson Miner actually used the same concept in a different area of the <code class="systemitem">www.simplygingeroot.com</code> site. On pages that show available products, a transparent PNG image is used to display an <code class="literal">On Sale</code> flag in the upper-left corner of sale item product photos, as shown in <a class="link" href="ch05.html#www.simplygingeroot-id2" title="Figure 5.8. www.simplygingeroot.com's Necklaces section uses a PNG image with a transparent background overlaid on top of the product image to display an On Sale flag in the upper-left corner.">Figure 5-8</a>. By creating the <code class="literal">On Sale</code> image once, and saving it with a transparent background as a PNG image, Wilson avoided the need to create separate versions of every product image with the flag embedded.</p><div class="figure"><a id="www.simplygingeroot-id2"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0508.png" height="228" alt="www.simplygingeroot.com's Necklaces section uses a PNG image with a transparent background overlaid on top of the product image to display an On Sale flag in the upper-left corner." width="549"></div></div><p class="title"><strong>Figure 5.8. <code class="systemitem">www.simplygingeroot.com</code>'s Necklaces section uses a PNG image with a transparent background overlaid on top of the product image to display an <code class="literal">On Sale</code> flag in the upper-left corner.</strong></p></div><p>I also used this technique on Explore Steamboat (<code class="systemitem">www.exploresteamboat.com</code>), a site dedicated to events, entertainment, and activities in Steamboat Springs, Colorado, as shown in <a class="link" href="ch05.html#www.exploresteamboat" title="Figure 5.9. www.exploresteamboat.com has a translucent box sitting atop an image by way of transparent PNG.">Figure 5-9</a>.</p><div class="figure"><a id="www.exploresteamboat"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0509.png" height="224" alt="www.exploresteamboat.com has a translucent box sitting atop an image by way of transparent PNG." width="549"></div></div><p class="title"><strong>Figure 5.9. <code class="systemitem">www.exploresteamboat.com</code> has a translucent box sitting atop an image by way of transparent PNG.</strong></p></div><p>In another creative example, designer Bryan Veloso (<code class="systemitem">www.avalonstar.com</code>) used a transparent PNG image anchored to the bottom of the page to create a "fade-in" effect, in which the text seems to appear out of thin air as you scroll down the page. The effect, found at <code class="systemitem">www.revyver.com</code> (see <a class="link" href="ch05.html#at_www._revyver._com_comma_designer_bry" title='Figure 5.10. At www.revyver.com, designer Bryan Veloso has used a transparent PNG to create a "fade-in" effect as you scroll down the page, and to place his artwork in front of the text content of the page.'>Figures 5-10</a> and <a class="link" href="ch05.html#by_viewing_bryan_apostrophy_s_footer" title="Figure 5.11. By viewing Bryan's footer PNG image in Photoshop, we get an idea of how the transparent alpha channel was constructed to achieve the designed effect.">5-11</a>) is better seen than described, so be sure to check it out for yourself. Additionally, the tree graphic sits in front of the text content of the page, producing an unexpected visual. It has quite a "wow" factor when you first see it.</p><div class="figure"><a id="at_www._revyver._com_comma_designer_bry"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0510.png" height="201" alt='At www.revyver.com, designer Bryan Veloso has used a transparent PNG to create a "fade-in" effect as you scroll down the page, and to place his artwork in front of the text content of the page.' width="549"></div></div><p class="title"><strong>Figure 5.10. At <code class="systemitem">www.revyver.com</code>, designer Bryan Veloso has used a transparent PNG to create a "fade-in" effect as you scroll down the page, and to place his artwork in front of the text content of the page.</strong></p></div><div class="figure"><a id="by_viewing_bryan_apostrophy_s_footer"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0511.png" height="148" alt="By viewing Bryan's footer PNG image in Photoshop, we get an idea of how the transparent alpha channel was constructed to achieve the designed effect." width="549"></div></div><p class="title"><strong>Figure 5.11. By viewing Bryan's footer PNG image in Photoshop, we get an idea of how the transparent alpha channel was constructed to achieve the designed effect.</strong></p></div></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_watermark"></a>The watermark</h2></div></div></div><p>Another common graphic design technique is the subtle watermark overlaid on top of an image. This may be done purely for visual style, but it may also be done as a way of indicating the copyright holder or origin of the image.<a id="IDX-CHP-5-0243" class="indexterm"></a></p><p>On my personal website (<code class="systemitem">www.jeffcroft.com</code>, see <a class="link" href="ch05.html#photo_detail_page_on" title="Figure 5.12. Photo detail page on www.jeffcroft.com">Figure 5-12</a>), I display a large gallery of photos I've taken (currently over 2000 photos). These photos are actually uploaded to Flickr (<code class="systemitem">www.flickr.com</code>), the popular online photo sharing site, and then displayed locally on my site by way of Flickr's open API.</p><div class="figure"><a id="photo_detail_page_on"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0512.png" width="549" alt="Photo detail page on www.jeffcroft.com" height="378"></div></div><p class="title"><strong>Figure 5.12. Photo detail page on <code class="systemitem">www.jeffcroft.com</code></strong></p></div><p>What if I wanted to place my personal logo on all of my photographs? Yes, it's possible to open each image in Photoshop, apply the logo, and resave the image. However, this becomes terribly impractical when dealing with thousands of images that are frequently updatedand sometimes updated when I'm nowhere near a computer (for example, when I send photos to Flickr via my cell phone). Wouldn't it be nice if the logo were added automatically? PNG can help do just that.</p><p>The HTML used to display the photo in the page looks like this:</p><pre class="programlisting">&lt;a class="photo-container" href="http://www.flickr.com/photos/jcroft/2622915/"&gt;
+  &lt;img class="full-size-photo" src=http://static.flickr.com/2/2622915_8b78c1207d.jpg<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="Photo detail page on www.jeffcroft.com" width="17" height="10"></div>
+alt="CTA, a photo by Jeff Croft" /&gt;
+&lt;/a&gt;</pre><p>I created an 80-by-80-pixel version of my logo in white and then set the opacity to 15% in Photoshop. Saved using Photoshop's standard PNG-24 optimization setting, the 15% translucency is preserved in the resulting PNG image. Then I simply added that image into my HTML as well:</p><pre class="programlisting">&lt;a class="photo-container" href="http://www.flickr.com/photos/jcroft/2622915/"&gt;
+  &lt;img class="full-size-photo" src="http://static.flickr.com/2/2622915_8b78c1207d.jpg"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="Photo detail page on www.jeffcroft.com" width="17" height="10"></div>
+alt="CTA, a photo by Jeff Croft " /&gt;
+  &lt;img class="watermark" src="http://media.jeffcroft.com/img/core/jeffcroft_logo_watermark.png"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="Photo detail page on www.jeffcroft.com" width="17" height="10"></div>
+alt="Watermark" /&gt;
+&lt;/a&gt;</pre><p>A bit of CSS is then used to position it in the right spot:</p><pre class="programlisting">a.photo-container {
+  position: relative;
+  display: block;
+}
+
+img.watermark {
+  position: absolute;
+  top: 2em;
+  left: 1em;
+}</pre><p>The result is a watermark that appears to be embedded in the photo itself, but is actually a separate PNG image sitting on top of it, as shown in <a class="link" href="ch05.html#subtle_www" title="Figure 5.13. Subtle www.jeffcroft.com logo mark appears via transparent PNG in the upper-left corner of the photo.">Figure 5-13</a>. By putting this into my templates for my content management system, I get the watermark on every image without having to do it all 2000 plus times.</p><div class="figure"><a id="subtle_www"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0513.png" width="549" alt="Subtle www.jeffcroft.com logo mark appears via transparent PNG in the upper-left corner of the photo." height="378"></div></div><p class="title"><strong>Figure 5.13. Subtle <code class="systemitem">www.jeffcroft.com</code> logo mark appears via transparent PNG in the upper-left corner of the photo.</strong></p></div><p>If you wanted to be extra-clever, you could even use DOM scripting to insert the additional (X)HTML markup for the watermark on the fly.</p></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_mask"></a>The mask</h2></div></div></div><p>Another handy use for the PNG image and its alpha-channel transparency is to mask an image below it. Technically, this is very similar to what you just saw with the watermark, but it achieves a different visual effect.<a id="IDX-CHP-5-0244" class="indexterm"></a><a id="IDX-CHP-5-0245" class="indexterm"></a></p><p>This time, I'll make a larger version of my logo in Photoshop. Instead of making the logo white, I'll make it transparent and the rest of the image white, because white is the background color of the page, as shown in <a class="link" href="ch05.html#creating_an_image_in_photoshop" title="Figure 5.14. Creating an image in Photoshop for use as a transparent PNG mask">Figure 5-14</a>.</p><div class="figure"><a id="creating_an_image_in_photoshop"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0514.png" height="327" alt="Creating an image in Photoshop for use as a transparent PNG mask" width="549"></div></div><p class="title"><strong>Figure 5.14. Creating an image in Photoshop for use as a transparent PNG mask</strong></p></div><p>As I said, the technical aspects of this are nearly identical to the watermark in the preceding section, starting with the HTML:</p><pre class="programlisting">&lt;a class="photo-container" href="http://www.flickr.com/photos/jcroft/2622915/"&gt;
+  &lt;img class="full-size-photo" src="http://static.flickr.com/2/2622915_8b78c1207d.jpg"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="Creating an image in Photoshop for use as a transparent PNG mask" width="17" height="10"></div>
+    alt="CTA, a photo by Jeff Croft" /&gt;
+  &lt;img class="mask" src="http://media.jeffcroft.com/img/core/jeffcroft_logo_mask.png"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="Creating an image in Photoshop for use as a transparent PNG mask" width="17" height="10"></div>
+    alt="Mask" /&gt;
+&lt;/a&gt;</pre><p>And then the CSS:</p><pre class="programlisting">a.photo-container {
+  position: relative;
+  display: block;
+}
+
+img.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+}</pre><p>See <a class="link" href="ch05.html#the_png_mask_is_layed_on_top_the_photo" title='Figure 5.15. The PNG mask is layed on top of the photo to created a "punched-out" effect.'>Figure 5-15</a> for the finished result.</p><div class="figure"><a id="the_png_mask_is_layed_on_top_the_photo"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0515.png" width="549" alt='The PNG mask is layed on top of the photo to created a "punched-out" effect.' height="378"></div></div><p class="title"><strong>Figure 5.15. The PNG mask is layed on top of the photo to created a "punched-out" effect.</strong></p></div></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_color-changing_icon"></a>The color-changing icon</h2></div></div></div><p>By using the mask concept you saw in the previous example, some people have created icons that can change color, using only CSS. The idea is both simple and ingenious: place a transparent image with the icon symbol "punched-out" over a square, rectangle, or other shape with a flat-color CSS background, and you've got yourself an icon. By simply changing the CSS color of the background, you give the impression of the icon changing color.<a id="IDX-CHP-5-0246" class="indexterm"></a><a id="IDX-CHP-5-0247" class="indexterm"></a></p><p>Perhaps we need a set of icons indicating common sports, as shown in <a class="link" href="ch05.html#some_common_sports_iconography" title="Figure 5.16. Some common sports iconography">Figure 5-16</a>.</p><div class="figure"><a id="some_common_sports_iconography"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0516.png" height="171" alt="Some common sports iconography" width="549"></div></div><p class="title"><strong>Figure 5.16. Some common sports iconography</strong></p></div><p>I've created white images with a transparent punch-out in the shape of the icon symbol, just as I did with the logo in the mask example in the previous section, as shown in <a class="link" href="ch05.html#creating_quotation_mark_knocked-out_quo" title='Figure 5.17. Creating "knocked-out" PNG masks for each icon'>Figure 5-17</a>.</p><div class="figure"><a id="creating_quotation_mark_knocked-out_quo"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0517.png" height="136" alt='Creating "knocked-out" PNG masks for each icon' width="549"></div></div><p class="title"><strong>Figure 5.17. Creating "knocked-out" PNG masks for each icon</strong></p></div><p>After scaling the images down to the appropriate size (I chose 48 by 48 pixels), I saved them using Photoshop's PNG-24 default with transparency enabled. Then I created a simple XHTML file that references each image (<code class="literal">sports_icons_example/index.html</code> in the code sample download package):</p><pre class="programlisting">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt='Creating "knocked-out" PNG masks for each icon' width="17" height="10"></div>
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+  &lt;title&gt;OMG Sports Icons!&lt;/title&gt;
+  &lt;style&gt;
+    img {
+      background-color: #cc0000;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;</pre><pre class="programlisting">&lt;body&gt;
+  &lt;img src="running.png" alt="Running" /&gt;
+  &lt;img src="biking.png" alt="Biking" /&gt;
+  &lt;img src="skiing.png" alt="Skiing" /&gt;
+  &lt;img src="soccer.png" alt="Soccer" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre><p>I've specified <code class="literal">#cc0000</code> (a strong red) as the background color for images in this file. The result is the red shining through the punched-out shapes, as shown in <a class="link" href="ch05.html#transparent_png_images_in_place" title="Figure 5.18. Transparent PNG images in place as web icons. Notice the CSS background color (red) showing through the image.">Figure 5-18</a>. Note the beautifully smooth edges thanks to the antialiasing allowed by PNG's support for partially transparent pixels.</p><div class="figure"><a id="transparent_png_images_in_place"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0518.png" height="252" alt="Transparent PNG images in place as web icons. Notice the CSS background color (red) showing through the image." width="549"></div></div><p class="title"><strong>Figure 5.18. Transparent PNG images in place as web icons. Notice the CSS background color (red) showing through the image.</strong></p></div><p>As you can see in <a class="link" href="ch05.html#changing_the_background_color_in" title="Figure 5.19. Changing the background color in CSS changes the apparent color of the icon.">Figure 5-19</a>, I can change the color of the icon images simply by changing the color value in my CSS:</p><pre class="programlisting">img {
+  background-color: #000066;
+}</pre><div class="figure"><a id="changing_the_background_color_in"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0519.png" height="251" alt="Changing the background color in CSS changes the apparent color of the icon." width="549"></div></div><p class="title"><strong>Figure 5.19. Changing the background color in CSS changes the apparent color of the icon.</strong></p></div><p>This kind of simple color changing can be very handy when you need to rework the design of your site. Instead of remaking all of your icon images, you simply change the color one time in CSS. It's also a great way to achieve a simple mouseover effect for linked images. For example, you could use the red for the standard color and the blue for the hover style (<code class="literal">sports_icons_example/index_links.html</code> in the code sample download package):</p><pre class="programlisting">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="Changing the background color in CSS changes the apparent color of the icon." width="17" height="10"></div>
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;
+&lt;head&gt;
+  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+  &lt;title&gt;OMG Sports Icons!&lt;/title&gt;
+  &lt;style&gt;
+    a:link img,
+    a:visited img,
+    a:active img {
+      background-color: #cc0000;
+    }
+    a:hover img {
+      background-color: #000066;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;a href="/running/"&gt;&lt;img src="running.png" alt="Running" /&gt;&lt;/a&gt;
+  &lt;a href="/biking/"&gt;&lt;img src="biking.png" alt="Biking" /&gt;&lt;/a&gt;
+  &lt;a href="/skiing/"&gt;&lt;img src="skiing.png" alt="Skiing" /&gt;&lt;/a&gt;
+  &lt;a href="/soccer/"&gt;&lt;img src="soccer.png" alt="Soccer" /&gt;&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre><p>You can use additional CSS to do even more creative things with your masked icons, such as adding a border (see <a class="link" href="ch05.html#using_css_to_further_enhance" title="Figure 5.20. Using CSS to further enhance the appearance of the icons by adding a border">Figure 5-20</a>):</p><pre class="programlisting">img {
+  background-color: #000066;
+  padding: 2px;
+}</pre><div class="figure"><a id="using_css_to_further_enhance"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0520.png" height="251" alt="Using CSS to further enhance the appearance of the icons by adding a border" width="549"></div></div><p class="title"><strong>Figure 5.20. Using CSS to further enhance the appearance of the icons by adding a border</strong></p></div><p>Dan Cederholm (<code class="systemitem">www.simplebits.com</code>) wrote about a very similar technique in his blog way back in 2003 (<code class="systemitem">www.simplebits.com/notebook/2003/07/24/magic_icons_for_lazy_people_like_me.html</code>), and PJ Onori (<code class="systemitem">www.somerandomdude.net</code>) gives away a great set of icons (called Sanscons) based on it at his website (<code class="systemitem">www.somerandomdude.net/srd-projects/sanscons/</code>).</p><p>However, I've reversed their concept by using a white image with a punched-out symbol. They used a white symbol on a transparent background, which can be very effective as well. In this case, your CSS background color shines through as the square or rectangle surrounding the symbol, rather than as the symbol itself.</p><p>Both Dan and PJ used transparent GIFs instead of PNGs. This is completely appropriate for their needs, as the style of the icons they created are bitmap, pixely looking little guys. By using PNGs, you can apply the same technique, but take advantage of antialiased edges and partial transparency for use in more detailed icons.</p></div></div><div class="sect1"><div class="titlepage"><div><div><h1 class="title"><a id="ok_comma_but_what_browsers_does_it_work"></a>OK, but what browsers does it work in?</h1></div></div></div><p>I know what you're thinking: all of this PNG transparency business seems really nice, but is it practical?<a id="IDX-CHP-5-0248" class="indexterm"></a><a id="IDX-CHP-5-0249" class="indexterm"></a><a id="IDX-CHP-5-0250" class="indexterm"></a><a id="IDX-CHP-5-0251" class="indexterm"></a><a id="IDX-CHP-5-0252" class="indexterm"></a><a id="IDX-CHP-5-0253" class="indexterm"></a><a id="IDX-CHP-5-0254" class="indexterm"></a><a id="IDX-CHP-5-0255" class="indexterm"></a><a id="IDX-CHP-5-0256" class="indexterm"></a><a id="IDX-CHP-5-0257" class="indexterm"></a></p><p>The good news is that almost all modern browsers fully support PNG images, including the alpha-channel transparency I've taken great advantage of in the examples. Safari (all versions), Firefox (all versions), Opera (version 6 and higher), Netscape (version 6 and higher), and Mozilla (all versions) will happily do everything I've asked it to. The bad news is that the one browser I haven't mentioned is the one your users are most likely to have: Internet Explorer.</p><p>Internet Explorer 6 and lower do not support the alpha-channel transparency built into the PNG format. Since this has been the browser of choice (or non-choice) for the vast majority of web surfers for several years now, this glaring hole has kept many web designers away from PNG. But, with the release of Internet Explorer 7, we finally have full support of PNG alpha transparency in all of the major browsers. What's more, there are ways to make alpha-transparent PNGs work in Internet Explorer 6 and lower. So, if you want to use these effects, nothing is stopping you. Internet Explorer 6 and its older siblings make it a little more work than it should be, but it's certainly possible.</p><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="the_internet_explorer_workaround_colon"></a>The Internet Explorer workaround: AlphaImageLoader</h2></div></div></div><p>Internet Explorer includes several proprietary filters. They're used in CSS, but they're not part of any official CSS specification. In other words, they're <span class="emphasis"><em>not</em></span> a web standard. It's unfortunate that Internet Explorer 6 and lower do not fully support the PNG image format (which is recommended by the W3C), but Microsoft does include a filter that overcomes this weakness: AlphaImageLoader.</p><p>According to Microsoft's official web page on the topic (<code class="systemitem">http://msdn.microsoft.com/workshop/author/filter/reference/filters/alphaimageloader.asp</code>), AlphaImageLoader "displays an image within the boundaries of the object and between the object background and content." In other words, AlphaImageLoader does load a PNG image with its full transparency in tact, but it loads it as a layer of its own, underneath the content of the object to which it is applied. PNG images loaded this way act similarly to background images, rather than foreground images (although they actually sit on top of the object's background).</p><p>In short, you can simply apply the AlphaImageLoader CSS to an <code class="literal">img</code> element and have it produce the desired results. Doing so will load the image, transparency intact, but will also load the image againas the foreground content of the objectwith no transparency (thus obscuring your transparent version).</p><p>You can't use a transparent PNG as a CSS background image for an (X)HTML element (say, a <code class="literal">&lt;div&gt;</code>) and expect the AlphaImageLoader filter to make it work as expected in Internet Explorer. Remember that AlphaImageLoader inserts your image in between the background and foreground of the object. So, while it will load your image in all its transparent glory, it will still load it as the CSS background image as well, and without your beautiful translucent pixels.</p></div><div class="sect2"><div class="titlepage"><div><div><h2 class="title"><a id="a_real-world_use_of_alphaimageloader"></a>A real-world use of AlphaImageLoader</h2></div></div></div><p>Let's go back to one of the earlier examples and try to make Internet Explorer load the image properly. Remember Channel 49, the TV station in Topeka? Sure you do. <a class="link" href="ch05.html#www.49abcnews-id3" title="Figure 5.21. www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact">Figure 5-21</a> shows how the site looks in Internet Explorer 6.</p><div class="figure"><a id="www.49abcnews-id3"></a><div class="figure-contents"><div><img src="/library/view/web-standards-creativity/9781590598030/figs/0521.png" height="143" alt="www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact" width="549"></div></div><p class="title"><strong>Figure 5.21. <code class="systemitem">www.49abcnews.com</code> header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact</strong></p></div><p>The HTML for the weather part of the header looks as you might expect:</p><pre class="programlisting">&lt;div id="weather"&gt;
+  &lt;a href="/weather/"&gt;&lt;img id="weatherImage"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact" width="17" height="10"></div>
+src="http://media.49abcnews.com/img/weather/overcast-night.png"<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact" width="17" height="10"></div>
+alt="Overcast" /&gt;&lt;/a&gt;
+  &lt;p&gt;&lt;a href="/weather/"&gt;Currently in Topeka, KS:&lt;br /&gt;<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact" width="17" height="10"></div>
+&lt;strong&gt;82 Overcast&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;Get the forecast<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact" width="17" height="10"></div>
+and more...&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</pre><p>You can see the image in question is a PNG, and yet Internet Explorer loads it flawlessly. The secret ingredient here is JavaScript. I've actually used a bit of DOM scripting to remove the <code class="literal">img</code> element on the fly and replace it with a <code class="literal">div</code> element thatyou guessed ithas the AlphaImageLoader CSS applied to it. The JavaScript is referenced within <span class="emphasis"><em>conditional comments</em></span>, another handy but completely nonstandard idiom Microsoft has built into Internet Explorer. Conditional comments let you target code at particular versions of Internet Explorer. The code is then ignored by all other browsers, so it doesn't affect them. In the <code class="literal">&lt;head&gt;</code> element of <code class="systemitem">www.49abcnews.com</code>, you'll find:</p><pre class="programlisting">&lt;!--[if lte IE 6]&gt;
+  &lt;script src="http://media.49abcnews.com/js/fixWeatherPng.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;</pre><p>Thanks to the first line, <code class="literal">if lte IE6</code>, this script element will be included in the rendered document only if it is being displayed by a version of Internet Explorer less than or equal to (that's what <code class="literal">lte</code> stands for) 6. All other browsers, including the forthcoming Internet Explorer 7, will ignore it completely.</p><p>So what's in the JavaScript file <code class="literal">fixWeatherPng.js</code>, anyway? Take a look:</p><pre class="programlisting">window.attachEvent("onload", fixWeatherPng);
+
+function fixWeatherPng() {
+   var img = document.getElementById("weatherImage");
+   var src = img.src;
+   img.style.visibility = "hidden";</pre><pre class="programlisting">var div = document.createElement("DIV");
+   div.style.filter = "progid:DXImageTransform.Microsoft.<div><img src="/library/view/web-standards-creativity/9781590598030/figs/U001.png" alt="www.49abcnews.com header, displayed in Internet Explorer 6 for Windows, with PNG transparency intact" width="17" height="10"></div>
+AlphaImageLoader(src='" + src + "', sizing='scale')";
+
+   <span class="emphasis"><em>// Some 49abcnews.com-specific CSS styling omitted for brevity.</em></span>
+
+        img.replaceNode(div);
+}</pre><p>Let's analyze what this script is doing step by step. First, we tell the browser that we want to run the <code class="literal">fixWeatherPng</code> function when the page loads. The rest of the script is the function itself.</p><p>To start off with, we find the image we're dealing with by its <code class="literal">id</code> attribute and store it in a variable called <code class="literal">img</code>. We save the <code class="literal">src</code> attribute (the URL to the image file) in a variable called <code class="literal">src</code>. Then we hide the <code class="literal">img</code> element by setting its <code class="literal">visibility</code> CSS property to <code class="literal">hidden</code>.</p><p>Next, we create a new <code class="literal">div</code> element and store it in a variable we'll call <code class="literal">div</code>. We'll apply the AlphaImageLoader filter to it, using the URL from the <code class="literal">src</code> variable we saved before.</p><p>Finally, we replace the original <code class="literal">img</code> element (which is hidden) with the newly created <code class="literal">div</code> element, which has the AlphaImageLoader goodness attached.</p><p>Using DOM scripting to insert your AlphaImageLoader-filtered bits on the fly has the side benefit of keeping the unpretty-but-necessary invalid CSS out of your CSS files. Likewise, it keeps the nonsemantic <code class="literal">div</code> elements out of your (X)HTML markup. And since all of this is referenced only within conditional comments, there's no chance of other browsers choking on Microsoft's proprietary code.</p><p>If you must do something invalid, at least you can abstract it and keep it quarantined from everything that doesn't need it.</p></div></div><div class="sect1"><div class="titlepage"><div><div><h1 class="title"><a id="conclusion-id2"></a>Conclusion</h1></div></div></div><p>PNG, as an image file format, offers many technical advantages over the much more widely used GIF. In fact, the advantages are so great that PNG should have taken over as the file format of choice for just about all nonphotographic images long ago. But Internet Explorer's lack of proper support for some of PNG's more exciting features, such as alpha-channel transparency, has resulted in many web developers shying away from it. But there are two very good reasons why you shouldn't be scared of PNG.</p><p>First, even Internet Explorer 6 and earlier versions' less-than-perfect support for PNG still offers everything you can get with GIF (save for animation, of course). And PNG almost always results in smaller files for faster transfer and less bandwidth usage.</p><p>Second, Internet Explorer 7 offers full support for PNG's alpha-channel transparency. The effects that can be achieved with the complete gamut of opacity options are virtually endless. I suspect designers who find interesting ways to use transparent PNGs, such as those outlined in this chapter, will open the doors to a whole new level of style not widely seen online to date. I've given you a handful of ideas on how you can get creative with PNGs and transparency, but don't stop there. Find your own, as well!</p></div></div></div>
+
+
+
+  <div class="t-sbo-prev sbo-prev sbo-nav-bottom">
+  
+    
+      
+        <a href="/library/view/web-standards-creativity/9781590598030/ch04.html" class="prev nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-prev-label">Prev</span>
+          <span class="visuallyhidden">Previous Chapter</span>
+          <div class="pagination-title t-prev-title">4. Designing for Outside the Box</div>
+        </a>
+    
+  
+  </div>
+
+  <div class="t-sbo-next sbo-next sbo-nav-bottom">
+  
+    
+      
+        <a href="/library/view/web-standards-creativity/9781590598030/pt02.html" class="next nav-link">
+      
+          <span aria-hidden="true" class="pagination-label t-next-label">Next</span>
+          <span class="visuallyhidden">Next Chapter</span>
+          <div class="pagination-title t-next-title">II. Effective Print Techniques Applied to CSS Design</div>
+        </a>
+    
+  
+  </div>
+
+
+        
+    </section>
+  </div>
+<section class="sbo-saved-archives"></section>
+
+
+
+          
+          
+  
+
+
+
+
+    
+    
+      <div id="js-subscribe-nag" class="subscribe-nag clearfix trial-panel t-subscribe-nag">
+        
+        
+          
+          
+
+          
+            <p>You have 4 days left in your trial, Natasavasiliou. Subscribe today. <a href="/subscribe/" class="ga-active-trial-subscribe-nag">See pricing options.</a></p>
+          
+        
+        
+
+      </div>
+
+    
+    
+
+
+
+        
+      </div>
+      
+
+
+
+
+  <footer class="pagefoot t-pagefoot">
+    <a href="#" class="icon-up"><div class="visuallyhidden">Back to top</div></a>
+    <ul class='js-footer-nav'>
+      
+        <li><a class="t-recommendations-footer" href="/r/">Recommended</a></li>
+      
+      <li>
+      <a class="t-queue-footer" href="/playlists/">Playlists</a>
+      </li>
+      
+        <li><a class="t-recent-footer" href="/history/">History</a></li>
+        <li><a class="t-topics-footer" href="/topics?q=*&limit=21">Topics</a></li>
+      
+      
+        <li><a class="t-tutorials-footer" href="/tutorials/">Tutorials</a></li>
+      
+      <li><a class="t-settings-footer js-settings" href="/u/preferences/">Settings</a></li>
+      <li class="full-support"><a href="https://www.oreilly.com/online-learning/support/">Support</a></li>
+      <li><a href="/apps/">Get the App</a></li>
+      <li><a href="/accounts/logout/">Sign Out</a></li>
+    </ul>
+    <span class="copyright">&#169; 2018 <a href="https://www.safaribooksonline.com" target="_blank">Safari</a>.</span>
+    <a href="/terms/">Terms of Service</a> /
+    <a href="/privacy/">Privacy Policy</a>
+  </footer>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"agent":"","errorBeacon":"bam.nr-data.net","applicationID":"3275661,67267027,67267028","queueTime":2,"beacon":"bam.nr-data.net","applicationTime":122,"transactionName":"YgdaZ0NSW0cEB0RdWltNfkZfUEFdCgofXFBHDVYdR1pQQxZeRl1QQj1aWkU=","licenseKey":"510f1a6865"}</script>
+
+
+    
+    <script src="/jsi18n/web/" charset="utf-8"></script>
+    <script src="/library/jsi18n/appcache/" charset="utf-8"></script>
+  </body>
+</html>
